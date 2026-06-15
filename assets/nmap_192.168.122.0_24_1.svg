@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "...">
+<svg width="873.33" height="400.00" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <filter id="shadow" filterUnits="userSpaceOnUse">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="24.00"/>
+    <feOffset result="offsetblur" dx="0.00" dy="12.00"/>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="terminalMask">
+    <rect width="873.33" height="400.00" rx="12.00" ry="12.00"/>
+  </clipPath>
+</defs>
+
+<!-- background without filter -->
+<rect width="873.33" height="400.00" fill="#0d1117" rx="12.00" ry="12.00"/>
+<g font-family="Hack" font-size="14.00px" fill="#e6edf3" clip-path="url(#terminalMask)">
+<text x="20.00px" y="51.80px" xml:space="preserve"><tspan xml:space="preserve" fill="#50dc64">$</tspan><tspan xml:space="preserve"> </tspan><tspan xml:space="preserve" fill="#78beff">nmap 192.168.122.0/24</tspan><tspan xml:space="preserve"/></text><text x="20.00px" y="68.60px" xml:space="preserve"><tspan xml:space="preserve">Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-22 16:00 -0400</tspan></text><text x="20.00px" y="85.40px" xml:space="preserve"><tspan xml:space="preserve">Nmap scan report for pop-os.local (192.168.122.1)</tspan></text><text x="20.00px" y="102.20px" xml:space="preserve"><tspan xml:space="preserve">Host is up (0.00013s latency).</tspan></text><text x="20.00px" y="119.00px" xml:space="preserve"><tspan xml:space="preserve">Not shown: 998 closed tcp ports (reset)</tspan></text><text x="20.00px" y="135.80px" xml:space="preserve"><tspan xml:space="preserve">PORT   STATE SERVICE</tspan></text><text x="20.00px" y="152.60px" xml:space="preserve"><tspan xml:space="preserve">53/tcp open  domain</tspan></text><text x="20.00px" y="169.40px" xml:space="preserve"><tspan xml:space="preserve">80/tcp open  http</tspan></text><text x="20.00px" y="186.20px" xml:space="preserve"><tspan xml:space="preserve">MAC Address: 52:54:00:A8:F1:B8 (QEMU virtual NIC)</tspan></text><text x="20.00px" y="203.00px" xml:space="preserve"/><text x="20.00px" y="219.80px" xml:space="preserve"><tspan xml:space="preserve">Nmap scan report for 192.168.122.85</tspan></text><text x="20.00px" y="236.60px" xml:space="preserve"><tspan xml:space="preserve">Host is up (0.00074s latency).</tspan></text><text x="20.00px" y="253.40px" xml:space="preserve"><tspan xml:space="preserve">Not shown: 994 closed tcp ports (reset)</tspan></text><text x="20.00px" y="270.20px" xml:space="preserve"><tspan xml:space="preserve">PORT              STATE SERVICE</tspan></text><text x="20.00px" y="287.00px" xml:space="preserve"><tspan xml:space="preserve">22/tcp            open          ssh</tspan></text><text x="20.00px" y="303.80px" xml:space="preserve"><tspan xml:space="preserve">80/tcp            open          http</tspan></text><text x="20.00px" y="320.60px" xml:space="preserve"><tspan xml:space="preserve">111/tcp           open          rpcbind</tspan></text><text x="20.00px" y="337.40px" xml:space="preserve"><tspan xml:space="preserve">139/tcp           open          netbios-ssn</tspan></text><text x="20.00px" y="354.20px" xml:space="preserve"><tspan xml:space="preserve">443/tcp           open          https</tspan></text><text x="20.00px" y="371.00px" xml:space="preserve"><tspan xml:space="preserve">32768/tcp open  filenet-tms</tspan></text><text x="20.00px" y="387.80px" xml:space="preserve"><tspan xml:space="preserve">MAC Address: 52:54:00:9E:6B:EB (QEMU virtual NIC)</tspan></text>
+</g>
+<svg x="0.00px" y="0.00px"><circle cx="13.50" cy="12.00" r="5.50" fill="#FF5A54"/><circle cx="32.50" cy="12.00" r="5.50" fill="#E6BF29"/><circle cx="51.50" cy="12.00" r="5.50" fill="#52C12B"/></svg><defs><filter id="shadow" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="24.00"/><feOffset result="offsetblur" dx="0.00" dy="12.00"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs></svg>

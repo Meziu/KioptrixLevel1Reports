@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "...">
+<svg width="1100" height="320.00" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <filter id="shadow" filterUnits="userSpaceOnUse">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="24.00"/>
+    <feOffset result="offsetblur" dx="0.00" dy="12.00"/>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="terminalMask">
+    <rect width="1100" height="320.00" rx="12.00" ry="12.00"/>
+  </clipPath>
+</defs>
+
+<!-- background without filter -->
+<rect width="1100" height="320.00" fill="#0d1117" rx="12.00" ry="12.00"/>
+<g font-family="Hack" font-size="14.00px" fill="#e6edf3" clip-path="url(#terminalMask)">
+<text x="20.00px" y="51.80px" xml:space="preserve"><tspan xml:space="preserve" fill="#50dc64">$</tspan><tspan xml:space="preserve"> </tspan><tspan xml:space="preserve" fill="#78beff">nmap -sV -sS -p22,80,111,139,443,32768 192.168.122.85</tspan><tspan xml:space="preserve"/></text><text x="20.00px" y="68.60px" xml:space="preserve"><tspan xml:space="preserve">Starting Nmap 7.99 ( https://nmap.org ) at 2026-05-22 16:53 -0400</tspan></text><text x="20.00px" y="85.40px" xml:space="preserve"><tspan xml:space="preserve">Nmap scan report for 192.168.122.85</tspan></text><text x="20.00px" y="102.20px" xml:space="preserve"><tspan xml:space="preserve">Host is up (0.00087s latency).</tspan></text><text x="20.00px" y="119.00px" xml:space="preserve"/><text x="20.00px" y="135.80px" xml:space="preserve"><tspan xml:space="preserve">PORT              STATE SERVICE     VERSION</tspan></text><text x="20.00px" y="152.60px" xml:space="preserve"><tspan xml:space="preserve">22/tcp            open          ssh                 OpenSSH 2.9p2 (protocol 1.99)</tspan></text><text x="20.00px" y="169.40px" xml:space="preserve"><tspan xml:space="preserve">80/tcp            open          http                Apache httpd 1.3.20 ((Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)</tspan></text><text x="20.00px" y="186.20px" xml:space="preserve"><tspan xml:space="preserve">111/tcp           open          rpcbind             2 (RPC #100000)</tspan></text><text x="20.00px" y="203.00px" xml:space="preserve"><tspan xml:space="preserve">139/tcp           open          netbios-ssn Samba smbd (workgroup: MYGROUP)</tspan></text><text x="20.00px" y="219.80px" xml:space="preserve"><tspan xml:space="preserve">443/tcp           open          ssl/https   Apache/1.3.20 (Unix)  (Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b</tspan></text><text x="20.00px" y="236.60px" xml:space="preserve"><tspan xml:space="preserve">32768/tcp open  status              1 (RPC #100024)</tspan></text><text x="20.00px" y="253.40px" xml:space="preserve"><tspan xml:space="preserve">MAC Address: 52:54:00:9E:6B:EB (QEMU virtual NIC)</tspan></text><text x="20.00px" y="270.20px" xml:space="preserve"/><text x="20.00px" y="287.00px" xml:space="preserve"><tspan xml:space="preserve">Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .</tspan></text><text x="20.00px" y="303.80px" xml:space="preserve"><tspan xml:space="preserve">Nmap done: 1 IP address (1 host up) scanned in 6.73 seconds</tspan></text>
+</g>
+<svg x="0.00px" y="0.00px"><circle cx="13.50" cy="12.00" r="5.50" fill="#FF5A54"/><circle cx="32.50" cy="12.00" r="5.50" fill="#E6BF29"/><circle cx="51.50" cy="12.00" r="5.50" fill="#52C12B"/></svg><defs><filter id="shadow" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="24.00"/><feOffset result="offsetblur" dx="0.00" dy="12.00"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs></svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "...">
+<svg width="873.33" height="285.00" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <filter id="shadow" filterUnits="userSpaceOnUse">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="24.00"/>
+    <feOffset result="offsetblur" dx="0.00" dy="12.00"/>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="terminalMask">
+    <rect width="873.33" height="285.00" rx="12.00" ry="12.00"/>
+  </clipPath>
+</defs>
+
+<!-- background without filter -->
+<rect width="873.33" height="285.00" fill="#0d1117" rx="12.00" ry="12.00"/>
+<g font-family="Hack" font-size="14.00px" fill="#e6edf3" clip-path="url(#terminalMask)">
+<text x="20.00px" y="51.80px" xml:space="preserve"><tspan xml:space="preserve" fill="#50dc64">$</tspan><tspan xml:space="preserve"> </tspan><tspan xml:space="preserve" fill="#78beff">ip address</tspan><tspan xml:space="preserve"/></text><text x="20.00px" y="68.60px" xml:space="preserve"><tspan xml:space="preserve">1: lo: &lt;LOOPBACK,UP,LOWER_UP&gt; mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000</tspan></text><text x="20.00px" y="85.40px" xml:space="preserve"><tspan xml:space="preserve">    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00</tspan></text><text x="20.00px" y="102.20px" xml:space="preserve"><tspan xml:space="preserve">    inet 127.0.0.1/8 scope host lo</tspan></text><text x="20.00px" y="119.00px" xml:space="preserve"><tspan xml:space="preserve">       valid_lft forever preferred_lft forever</tspan></text><text x="20.00px" y="135.80px" xml:space="preserve"><tspan xml:space="preserve">    inet6 ::1/128 scope host noprefixroute</tspan></text><text x="20.00px" y="152.60px" xml:space="preserve"><tspan xml:space="preserve">       valid_lft forever preferred_lft forever</tspan></text><text x="20.00px" y="169.40px" xml:space="preserve"><tspan xml:space="preserve">2: eth0: &lt;BROADCAST,MULTICAST,UP,LOWER_UP&gt; mtu 1500 qdisc fq_codel state UP group default qlen 1000</tspan></text><text x="20.00px" y="186.20px" xml:space="preserve"><tspan xml:space="preserve">    link/ether 52:54:00:cd:81:0d brd ff:ff:ff:ff:ff:ff</tspan></text><text x="20.00px" y="203.00px" xml:space="preserve"><tspan xml:space="preserve">    inet 192.168.122.179/24 brd 192.168.122.255 scope global dynamic noprefixroute eth0</tspan></text><text x="20.00px" y="219.80px" xml:space="preserve"><tspan xml:space="preserve">       valid_lft 2849sec preferred_lft 2849sec</tspan></text><text x="20.00px" y="236.60px" xml:space="preserve"><tspan xml:space="preserve">    inet6 fe80::285:ebe5:238d:dbe7/64 scope link noprefixroute</tspan></text><text x="20.00px" y="253.40px" xml:space="preserve"><tspan xml:space="preserve">       valid_lft forever preferred_lft forever</tspan></text>
+</g>
+<svg x="0.00px" y="0.00px"><circle cx="13.50" cy="12.00" r="5.50" fill="#FF5A54"/><circle cx="32.50" cy="12.00" r="5.50" fill="#E6BF29"/><circle cx="51.50" cy="12.00" r="5.50" fill="#52C12B"/></svg><defs><filter id="shadow" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="24.00"/><feOffset result="offsetblur" dx="0.00" dy="12.00"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs></svg>

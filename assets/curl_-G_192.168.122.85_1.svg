@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "...">
+<svg width="873.33" height="420.00" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <filter id="shadow" filterUnits="userSpaceOnUse">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="24.00"/>
+    <feOffset result="offsetblur" dx="0.00" dy="12.00"/>
+    <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="terminalMask">
+    <rect width="873.33" height="420.00" rx="12.00" ry="12.00"/>
+  </clipPath>
+</defs>
+
+<!-- background without filter -->
+<rect width="873.33" height="420.00" fill="#0d1117" rx="12.00" ry="12.00"/>
+<g font-family="Hack" font-size="14.00px" fill="#e6edf3" clip-path="url(#terminalMask)">
+<text x="20.00px" y="51.80px" xml:space="preserve"><tspan xml:space="preserve" fill="#50dc64">$</tspan><tspan xml:space="preserve"> </tspan><tspan xml:space="preserve" fill="#78beff">curl -G 192.168.122.85</tspan><tspan xml:space="preserve"/></text><text x="20.00px" y="68.60px" xml:space="preserve"><tspan xml:space="preserve">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 3.2 Final//EN&quot;&gt;</tspan></text><text x="20.00px" y="85.40px" xml:space="preserve"><tspan xml:space="preserve">&lt;HTML&gt;</tspan></text><text x="20.00px" y="102.20px" xml:space="preserve"><tspan xml:space="preserve"> &lt;HEAD&gt;</tspan></text><text x="20.00px" y="119.00px" xml:space="preserve"><tspan xml:space="preserve">  &lt;TITLE&gt;Test Page for the Apache Web Server on Red Hat Linux&lt;/TITLE&gt;</tspan></text><text x="20.00px" y="135.80px" xml:space="preserve"><tspan xml:space="preserve"> &lt;/HEAD&gt;</tspan></text><text x="20.00px" y="152.60px" xml:space="preserve"><tspan xml:space="preserve">&lt;!-- Background white, links blue (unvisited), navy (visited), red (active) --&gt;</tspan></text><text x="20.00px" y="169.40px" xml:space="preserve"><tspan xml:space="preserve"> &lt;BODY BGCOLOR=&quot;#FFFFFF&quot;&gt;</tspan></text><text x="20.00px" y="186.20px" xml:space="preserve"/><text x="20.00px" y="203.00px" xml:space="preserve"><tspan xml:space="preserve">  &lt;H1 ALIGN=&quot;CENTER&quot;&gt;Test Page&lt;/H1&gt;</tspan></text><text x="20.00px" y="219.80px" xml:space="preserve"><tspan xml:space="preserve">  This page is used to test the proper operation of the Apache Web server after</tspan></text><text x="20.00px" y="236.60px" xml:space="preserve"><tspan xml:space="preserve">  it has been installed.  If you can read this page, it means that the Apache</tspan></text><text x="20.00px" y="253.40px" xml:space="preserve"><tspan xml:space="preserve">  Web server installed at this site is working properly.</tspan></text><text x="20.00px" y="270.20px" xml:space="preserve"/><text x="20.00px" y="287.00px" xml:space="preserve"><tspan xml:space="preserve">...             </tspan></text><text x="20.00px" y="303.80px" xml:space="preserve"/><text x="20.00px" y="320.60px" xml:space="preserve"><tspan xml:space="preserve">  &lt;P ALIGN=&quot;center&quot;&gt;</tspan></text><text x="20.00px" y="337.40px" xml:space="preserve"><tspan xml:space="preserve">  &lt;A HREF=&quot;http://www.redhat.com/&quot;&gt;&lt;IMG SRC=&quot;poweredby.png&quot; ALT=&quot;[ Powered</tspan></text><text x="20.00px" y="354.20px" xml:space="preserve"><tspan xml:space="preserve">by Red Hat Linux ]&quot;&gt;&lt;/A&gt;</tspan></text><text x="20.00px" y="371.00px" xml:space="preserve"><tspan xml:space="preserve">  &lt;/P&gt;</tspan></text><text x="20.00px" y="387.80px" xml:space="preserve"><tspan xml:space="preserve"> &lt;/BODY&gt;</tspan></text><text x="20.00px" y="404.60px" xml:space="preserve"><tspan xml:space="preserve">&lt;/HTML&gt;</tspan></text>
+</g>
+<svg x="0.00px" y="0.00px"><circle cx="13.50" cy="12.00" r="5.50" fill="#FF5A54"/><circle cx="32.50" cy="12.00" r="5.50" fill="#E6BF29"/><circle cx="51.50" cy="12.00" r="5.50" fill="#52C12B"/></svg><defs><filter id="shadow" filterUnits="userSpaceOnUse"><feGaussianBlur in="SourceAlpha" stdDeviation="24.00"/><feOffset result="offsetblur" dx="0.00" dy="12.00"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs></svg>
